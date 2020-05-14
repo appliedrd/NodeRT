@@ -1,0 +1,21 @@
+{
+  "name": "samples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ted",
+  "license": "ISC",
+  "dependencies": {
+    "windows.devices.geolocation": "file:../../../temp/windows.devices.geolocation",
+    "windows.media": "file:../../../NodeRT/windows.media",
+    "windows.media.mediaproperties": "file:../../../NodeRT/windows.media.mediaproperties",
+    "windows.storage": "file:../../../NodeRT/windows.storage"
+  },
+  "devDependencies": {
+    "windows.media.capture": "file:../../../NodeRT/windows.media.capture",
+    "windows.media.devices": "file:../../../NodeRT/windows.media.devices"
+  }
+}

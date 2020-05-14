@@ -65,10 +65,10 @@ namespace NodeRTUI
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(42, 23);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(28, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 25);
+            this.label1.Size = new System.Drawing.Size(77, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "WinMd File";
             // 
@@ -76,20 +76,20 @@ namespace NodeRTUI
             // 
             this.txtFilename.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtFilename.Location = new System.Drawing.Point(182, 17);
-            this.txtFilename.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtFilename.Location = new System.Drawing.Point(121, 11);
+            this.txtFilename.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtFilename.Name = "txtFilename";
             this.txtFilename.ReadOnly = true;
-            this.txtFilename.Size = new System.Drawing.Size(884, 31);
+            this.txtFilename.Size = new System.Drawing.Size(591, 22);
             this.txtFilename.TabIndex = 1;
             // 
             // cmdOpenFile
             // 
             this.cmdOpenFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmdOpenFile.Location = new System.Drawing.Point(1018, 17);
-            this.cmdOpenFile.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cmdOpenFile.Location = new System.Drawing.Point(679, 11);
+            this.cmdOpenFile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmdOpenFile.Name = "cmdOpenFile";
-            this.cmdOpenFile.Size = new System.Drawing.Size(52, 40);
+            this.cmdOpenFile.Size = new System.Drawing.Size(35, 26);
             this.cmdOpenFile.TabIndex = 3;
             this.cmdOpenFile.Text = "...";
             this.cmdOpenFile.UseVisualStyleBackColor = true;
@@ -104,10 +104,10 @@ namespace NodeRTUI
             // btnGenerate
             // 
             this.btnGenerate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnGenerate.Location = new System.Drawing.Point(48, 848);
-            this.btnGenerate.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnGenerate.Location = new System.Drawing.Point(32, 452);
+            this.btnGenerate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.Size = new System.Drawing.Size(316, 44);
+            this.btnGenerate.Size = new System.Drawing.Size(211, 28);
             this.btnGenerate.TabIndex = 4;
             this.btnGenerate.Text = "Generate and build module";
             this.btnGenerate.UseVisualStyleBackColor = true;
@@ -119,30 +119,30 @@ namespace NodeRTUI
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.namespaceList.FormattingEnabled = true;
-            this.namespaceList.ItemHeight = 25;
-            this.namespaceList.Location = new System.Drawing.Point(48, 117);
-            this.namespaceList.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.namespaceList.ItemHeight = 16;
+            this.namespaceList.Location = new System.Drawing.Point(32, 75);
+            this.namespaceList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.namespaceList.Name = "namespaceList";
-            this.namespaceList.Size = new System.Drawing.Size(1018, 454);
+            this.namespaceList.Size = new System.Drawing.Size(680, 196);
             this.namespaceList.TabIndex = 5;
             // 
             // txtFilter
             // 
             this.txtFilter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtFilter.Location = new System.Drawing.Point(112, 73);
-            this.txtFilter.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtFilter.Location = new System.Drawing.Point(75, 47);
+            this.txtFilter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtFilter.Name = "txtFilter";
-            this.txtFilter.Size = new System.Drawing.Size(954, 31);
+            this.txtFilter.Size = new System.Drawing.Size(637, 22);
             this.txtFilter.TabIndex = 6;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 79);
-            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label2.Location = new System.Drawing.Point(28, 51);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 25);
+            this.label2.Size = new System.Drawing.Size(39, 17);
             this.label2.TabIndex = 7;
             this.label2.Text = "Filter";
             // 
@@ -155,10 +155,10 @@ namespace NodeRTUI
             "Windows 8",
             "Windows 8.1",
             "Windows 10"});
-            this.cmbWindowsVersion.Location = new System.Drawing.Point(384, 646);
-            this.cmbWindowsVersion.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cmbWindowsVersion.Location = new System.Drawing.Point(256, 322);
+            this.cmbWindowsVersion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbWindowsVersion.Name = "cmbWindowsVersion";
-            this.cmbWindowsVersion.Size = new System.Drawing.Size(682, 33);
+            this.cmbWindowsVersion.Size = new System.Drawing.Size(456, 24);
             this.cmbWindowsVersion.TabIndex = 27;
             this.cmbWindowsVersion.SelectedIndexChanged += new System.EventHandler(this.cmbWindowsVersion_SelectedIndexChanged);
             // 
@@ -166,10 +166,10 @@ namespace NodeRTUI
             // 
             this.lblWindowsVer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblWindowsVer.AutoSize = true;
-            this.lblWindowsVer.Location = new System.Drawing.Point(42, 656);
-            this.lblWindowsVer.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblWindowsVer.Location = new System.Drawing.Point(28, 329);
+            this.lblWindowsVer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWindowsVer.Name = "lblWindowsVer";
-            this.lblWindowsVer.Size = new System.Drawing.Size(233, 25);
+            this.lblWindowsVer.Size = new System.Drawing.Size(152, 17);
             this.lblWindowsVer.TabIndex = 28;
             this.lblWindowsVer.Text = "Windows SDK Version:";
             // 
@@ -188,20 +188,20 @@ namespace NodeRTUI
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(42, 800);
-            this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label6.Location = new System.Drawing.Point(28, 421);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(171, 25);
+            this.label6.Size = new System.Drawing.Size(114, 17);
             this.label6.TabIndex = 29;
             this.label6.Text = "Output directory:";
             // 
             // btnOutputDirBrowse
             // 
             this.btnOutputDirBrowse.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnOutputDirBrowse.Location = new System.Drawing.Point(1018, 787);
-            this.btnOutputDirBrowse.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnOutputDirBrowse.Location = new System.Drawing.Point(679, 413);
+            this.btnOutputDirBrowse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnOutputDirBrowse.Name = "btnOutputDirBrowse";
-            this.btnOutputDirBrowse.Size = new System.Drawing.Size(52, 40);
+            this.btnOutputDirBrowse.Size = new System.Drawing.Size(35, 26);
             this.btnOutputDirBrowse.TabIndex = 31;
             this.btnOutputDirBrowse.Text = "...";
             this.btnOutputDirBrowse.UseVisualStyleBackColor = true;
@@ -211,11 +211,11 @@ namespace NodeRTUI
             // 
             this.txtOutputDirectory.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtOutputDirectory.Location = new System.Drawing.Point(382, 787);
-            this.txtOutputDirectory.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtOutputDirectory.Location = new System.Drawing.Point(255, 413);
+            this.txtOutputDirectory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtOutputDirectory.Name = "txtOutputDirectory";
             this.txtOutputDirectory.ReadOnly = true;
-            this.txtOutputDirectory.Size = new System.Drawing.Size(684, 31);
+            this.txtOutputDirectory.Size = new System.Drawing.Size(457, 22);
             this.txtOutputDirectory.TabIndex = 30;
             // 
             // chkDefGen
@@ -224,10 +224,10 @@ namespace NodeRTUI
             this.chkDefGen.AutoSize = true;
             this.chkDefGen.Checked = true;
             this.chkDefGen.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkDefGen.Location = new System.Drawing.Point(48, 702);
-            this.chkDefGen.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.chkDefGen.Location = new System.Drawing.Point(32, 356);
+            this.chkDefGen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkDefGen.Name = "chkDefGen";
-            this.chkDefGen.Size = new System.Drawing.Size(529, 29);
+            this.chkDefGen.Size = new System.Drawing.Size(350, 21);
             this.chkDefGen.TabIndex = 32;
             this.chkDefGen.Text = "Generate TypeScript and JavaScript definition files";
             this.chkDefGen.UseVisualStyleBackColor = true;
@@ -239,10 +239,10 @@ namespace NodeRTUI
             this.chkBuildModule.AutoSize = true;
             this.chkBuildModule.Checked = true;
             this.chkBuildModule.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkBuildModule.Location = new System.Drawing.Point(48, 750);
-            this.chkBuildModule.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.chkBuildModule.Location = new System.Drawing.Point(32, 387);
+            this.chkBuildModule.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkBuildModule.Name = "chkBuildModule";
-            this.chkBuildModule.Size = new System.Drawing.Size(168, 29);
+            this.chkBuildModule.Size = new System.Drawing.Size(111, 21);
             this.chkBuildModule.TabIndex = 33;
             this.chkBuildModule.Text = "Build module";
             this.chkBuildModule.UseVisualStyleBackColor = true;
@@ -252,10 +252,10 @@ namespace NodeRTUI
             // 
             this.lblVsVersion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblVsVersion.AutoSize = true;
-            this.lblVsVersion.Location = new System.Drawing.Point(44, 598);
-            this.lblVsVersion.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblVsVersion.Location = new System.Drawing.Point(29, 292);
+            this.lblVsVersion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVsVersion.Name = "lblVsVersion";
-            this.lblVsVersion.Size = new System.Drawing.Size(223, 25);
+            this.lblVsVersion.Size = new System.Drawing.Size(146, 17);
             this.lblVsVersion.TabIndex = 35;
             this.lblVsVersion.Text = "Visual Studio Version:";
             // 
@@ -269,18 +269,18 @@ namespace NodeRTUI
             "VS 2013 Project",
             "VS 2015 Project",
             "VS 2017 Project"});
-            this.cmbVsVersion.Location = new System.Drawing.Point(386, 588);
-            this.cmbVsVersion.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cmbVsVersion.Location = new System.Drawing.Point(257, 285);
+            this.cmbVsVersion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbVsVersion.Name = "cmbVsVersion";
-            this.cmbVsVersion.Size = new System.Drawing.Size(682, 33);
+            this.cmbVsVersion.Size = new System.Drawing.Size(456, 24);
             this.cmbVsVersion.TabIndex = 34;
             this.cmbVsVersion.SelectedIndexChanged += new System.EventHandler(this.cmbVsVersion_SelectedIndexChanged);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1116, 915);
+            this.ClientSize = new System.Drawing.Size(744, 495);
             this.Controls.Add(this.lblVsVersion);
             this.Controls.Add(this.cmbVsVersion);
             this.Controls.Add(this.chkBuildModule);
@@ -298,8 +298,8 @@ namespace NodeRTUI
             this.Controls.Add(this.txtFilename);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.MinimumSize = new System.Drawing.Size(1104, 781);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MinimumSize = new System.Drawing.Size(742, 517);
             this.Name = "MainForm";
             this.Text = "NodeRT Modules Generator";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainForm_FormClosed);
